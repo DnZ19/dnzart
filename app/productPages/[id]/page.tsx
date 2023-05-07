@@ -1,4 +1,3 @@
-import Product from "@/app/components/Product";
 import Image from "next/image";
 import { SearchParamTypes } from "@/types/SearchParamTypes";
 import formatPrice from "@/util/PriceFormat";
@@ -8,13 +7,13 @@ export default async function ProductPage({
 }: SearchParamTypes) {
 	return (
 		<div className="flex flex-col min-h-screen">
-			<div className="flex flex-row mt-10 min-h-max">
+			<div className="flex flex-col md:flex-row mt-10 min-h-max">
 				<Image
 					src={searchParams.image}
 					alt={searchParams.name}
 					width={600}
 					height={600}
-					className="w-auto max-h-70 rounded-lg"
+					className="w-auto max-h-auto md:max-h-72 rounded-lg"
 				/>
 				<div>
 					<div className="px-4 text-justify">
@@ -23,7 +22,12 @@ export default async function ProductPage({
 						</h1>
 						{searchParams.price !== null &&
 							formatPrice(searchParams.price)}
-						<p>{searchParams.description}</p>
+						<p className="mt-10">
+							{searchParams.description}
+						</p>
+						<button className="bg-transparent border-2 border-teal-950 hover:bg-teal-500 text-teal-900 rounded-lg py-2 px-4 mt-10">
+							Check availability
+						</button>
 					</div>
 				</div>
 			</div>

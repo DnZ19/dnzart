@@ -1,14 +1,16 @@
 "use client";
 
 import "font-awesome/css/font-awesome.min.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function Nav() {
 	const [isOpen, setIsOpen] = useState(false);
 
 	function toggleMenu() {
-		setIsOpen(!isOpen);
+		if (window.innerWidth < 1024) {
+			setIsOpen(!isOpen);
+		}
 	}
 
 	return (
@@ -26,7 +28,7 @@ export default function Nav() {
 			<ul
 				className={`${
 					isOpen
-						? "fixed inset-0 flex flex-col items-center justify-center bg-red-300 text-gray-600"
+						? "fixed inset-0 flex flex-col items-center justify-center bg-red-300 text-gray-600 mt-[-150px]"
 						: "hidden lg:flex lg:items-center"
 				}`}>
 				{isOpen && (
@@ -34,7 +36,7 @@ export default function Nav() {
 						className="flex flex-col items-center justify-center text-white focus:outline-none"
 						onClick={toggleMenu}>
 						<i
-							className="fa fa-times w-32 h-32"
+							className="fa fa-times w-32 h-20"
 							style={{ fontSize: "25px" }}></i>
 					</button>
 				)}
@@ -59,16 +61,6 @@ export default function Nav() {
 					className="flex flex-row justify-between items-center py-2 px-4 rounded-md"
 					onClick={toggleMenu}>
 					About Me
-				</li>
-				<li
-					className="flex flex-row justify-between items-center py-2 px-4 rounded-md"
-					onClick={toggleMenu}>
-					Link
-				</li>
-				<li
-					className="flex flex-row justify-between items-center py-2 px-4 rounded-md"
-					onClick={toggleMenu}>
-					Link
 				</li>
 			</ul>
 		</nav>

@@ -3,10 +3,10 @@ import Product from "../components/Product";
 export default function Products() {
 	return (
 		<div>
+			<h1 className="text-gray-500 font-light text-2xl">
+				All my paintings
+			</h1>
 			<div className="grid grid-cols-fluid gap-4 mt-12">
-				<h1 className="text-gray-500 font-light text-2xl">
-					All my paintings
-				</h1>
 				<Product
 					id={"1"}
 					name={"Painting one"}
