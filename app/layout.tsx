@@ -1,5 +1,6 @@
 import "./globals.css";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 export const metadata = {
 	title: "DnZ-ART",
@@ -16,6 +17,7 @@ export default function RootLayout({
 			<body className="mx-4 my-8 md:mx-12 lg:mx-48">
 				<Nav />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
