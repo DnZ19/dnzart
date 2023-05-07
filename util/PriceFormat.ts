@@ -1,6 +1,8 @@
-const formatPrice = (amount) => {
-	return new Intl.NumberFormat("nl-EUR" {
-        style: "currency",
-        currency: "EUR",
-    }).format(amount/100);
+const formatPrice = (amount: number) => {
+	return new Intl.NumberFormat("nl-NL", {
+		style: "currency",
+		currency: "EUR",
+	}).format(amount / 100);
 };
+
+export default formatPrice;
