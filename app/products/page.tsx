@@ -9,6 +9,7 @@ export default function Products() {
 			<div className="grid grid-cols-fluid gap-4 mt-12">
 				<Product
 					id={"1"}
+					sold={true}
 					name={"Painting one"}
 					image={"/painting.png"}
 					price={50000}
@@ -18,6 +19,7 @@ export default function Products() {
 				/>
 				<Product
 					id={"2"}
+					sold={true}
 					name={"Painting two"}
 					image={"/painting.png"}
 					price={50000}
@@ -27,6 +29,7 @@ export default function Products() {
 				/>
 				<Product
 					id={"3"}
+					sold={true}
 					name={"Painting three"}
 					image={"/painting.png"}
 					price={50000}
@@ -36,6 +39,7 @@ export default function Products() {
 				/>
 				<Product
 					id={"4"}
+					sold={false}
 					name={"Painting four"}
 					image={"/painting.png"}
 					price={50000}

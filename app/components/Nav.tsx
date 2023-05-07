@@ -14,7 +14,11 @@ export default function Nav() {
 	}
 
 	return (
-		<nav className="bg-red-300 relative">
+		<nav className="bg-transparent relative flex flex-row items-center justify-between">
+			<h2 className="absolute right-0 h-auto w-26 max-w-md lg:left-0 text-red-600 font-bold antialiased tracking-wider hover:italic z-20 md:text-xl">
+				<Link href="/">DENNIZ - art</Link>
+			</h2>
+
 			<div className="flex flex-col items-center justify-between py-8">
 				<button
 					className="text-gray-800 focus:outline-none lg:hidden"
@@ -28,12 +32,12 @@ export default function Nav() {
 			<ul
 				className={`${
 					isOpen
-						? "fixed inset-0 flex flex-col items-center justify-center bg-red-300 text-gray-600 mt-[-150px]"
-						: "hidden lg:flex lg:items-center"
+						? "fixed inset-0 flex flex-col items-center justify-center bg-white text-gray-600 mt-[-150px] z-10"
+						: "hidden lg:flex lg:items-center lg:justify-end md:gap-6 md:text-xl"
 				}`}>
 				{isOpen && (
 					<button
-						className="flex flex-col items-center justify-center text-white focus:outline-none"
+						className="flex flex-col items-center justify-center text-gray-700 gap-4 focus:outline-none"
 						onClick={toggleMenu}>
 						<i
 							className="fa fa-times w-32 h-20"
@@ -43,7 +47,7 @@ export default function Nav() {
 
 				<Link href="/">
 					<li
-						className="flex flex-row justify-between items-center py-2 px-4 rounded-md cursor-pointer"
+						className="flex flex-row h-auto justify-between items-center py-2 rounded-md ursor-pointer hover:text-red-600"
 						onClick={toggleMenu}>
 						Home
 					</li>
@@ -51,17 +55,27 @@ export default function Nav() {
 
 				<Link href="/products">
 					<li
-						className="flex flex-row justify-between items-center py-2 px-4 rounded-md cursor-pointer"
+						className="flex flex-row justify-between items-center py-2 rounded-md cursor-pointer hover:text-red-600"
 						onClick={toggleMenu}>
 						Overview
 					</li>
 				</Link>
 
-				<li
-					className="flex flex-row justify-between items-center py-2 px-4 rounded-md"
-					onClick={toggleMenu}>
-					About Me
-				</li>
+				<Link href="/about">
+					<li
+						className="flex flex-row justify-between items-center py-2 rounded-md italic text-blue-700 cursor-pointer hover:text-red-600"
+						onClick={toggleMenu}>
+						About Me
+					</li>
+				</Link>
+
+				<Link href="/contact">
+					<li
+						className="flex flex-row justify-between items-center py-2 rounded-md italic cursor-pointer hover:text-red-600"
+						onClick={toggleMenu}>
+						Reach out
+					</li>
+				</Link>
 			</ul>
 		</nav>
 	);

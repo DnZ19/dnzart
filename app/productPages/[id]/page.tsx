@@ -8,13 +8,15 @@ export default async function ProductPage({
 	return (
 		<div className="flex flex-col min-h-screen">
 			<div className="flex flex-col md:flex-row mt-10 min-h-max">
-				<Image
-					src={searchParams.image}
-					alt={searchParams.name}
-					width={600}
-					height={600}
-					className="w-auto max-h-auto md:max-h-72 rounded-lg"
-				/>
+				<div>
+					<Image
+						src={searchParams.image}
+						alt={searchParams.name}
+						width={600}
+						height={600}
+						className="w-auto max-h-auto md:max-h-72 lg:md:max-h-none lg:max-w-md rounded-lg bg-cover"
+					/>
+				</div>
 				<div>
 					<div className="px-4 text-justify">
 						<h1 className="text-2xl pb-4">
