@@ -1,6 +1,7 @@
 import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import Head from "next/head";
 
 export const metadata = {
 	title: "DnZ-ART",
@@ -14,6 +15,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
+			<Head>
+				<link rel="icon" href="/favicon.ico" />
+			</Head>
 			<body className="mx-4 md:mx-12 lg:mx-22">
 				<Nav />
 				{children}
