@@ -38,7 +38,57 @@ export default function Products() {
 					}
 				/>
 				<Product
-					id={"4"}
+					id={"5"}
+					sold={false}
+					name={"Painting four"}
+					image={"/painting.png"}
+					price={50000}
+					description={
+						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
+					}
+				/>
+				<Product
+					id={"6"}
+					sold={false}
+					name={"Painting four"}
+					image={"/painting.png"}
+					price={50000}
+					description={
+						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
+					}
+				/>
+				<Product
+					id={"7"}
+					sold={false}
+					name={"Painting four"}
+					image={"/painting.png"}
+					price={50000}
+					description={
+						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
+					}
+				/>
+				<Product
+					id={"8"}
+					sold={false}
+					name={"Painting four"}
+					image={"/painting.png"}
+					price={50000}
+					description={
+						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
+					}
+				/>
+				<Product
+					id={"9"}
+					sold={true}
+					name={"Painting four"}
+					image={"/painting.png"}
+					price={50000}
+					description={
+						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
+					}
+				/>
+				<Product
+					id={"10"}
 					sold={false}
 					name={"Painting four"}
 					image={"/painting.png"}

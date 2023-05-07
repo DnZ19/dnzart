@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { SearchParamTypes } from "@/types/SearchParamTypes";
 import formatPrice from "@/util/PriceFormat";
+import Link from "next/link";
 
 export default async function ProductPage({
 	searchParams,
@@ -27,9 +28,11 @@ export default async function ProductPage({
 						<p className="mt-10">
 							{searchParams.description}
 						</p>
-						<button className="bg-transparent border-2 border-teal-950 hover:bg-teal-500 text-teal-900 rounded-lg py-2 px-4 mt-10">
-							Check availability
-						</button>
+						<Link href="/contact">
+							<button className="bg-transparent border-2 border-teal-950 hover:bg-teal-500 text-teal-900 rounded-lg py-2 px-4 mt-10 cursor-pointer">
+								Check availability
+							</button>
+						</Link>
 					</div>
 				</div>
 			</div>
