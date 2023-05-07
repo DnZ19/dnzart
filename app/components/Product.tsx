@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import formatPrice from "@/util/PriceFormat";
 import { ProductType } from "@/types/ProductType";
@@ -26,7 +28,7 @@ export default function Product({
 				/>
 				<div className="font-medium py-6">
 					<h1 className="text-xl pb-4">{name}</h1>
-					{formatPrice(price)}
+					{price !== null && formatPrice(price)}
 					<p className="text-sm">{description}</p>
 				</div>
 			</div>

@@ -13,25 +13,29 @@ export default function Nav() {
 
 	return (
 		<nav className="bg-red-300 relative">
-			<div className="flex items-center justify-between py-8">
+			<div className="flex flex-col items-center justify-between py-8">
 				<button
 					className="text-gray-800 focus:outline-none lg:hidden"
 					onClick={toggleMenu}>
-					<i className="fa fa-bars text-2xl"></i>
+					<i
+						className="fa fa-bars text-2xl"
+						style={{ fontSize: "25px" }}></i>
 				</button>
 			</div>
 
 			<ul
 				className={`${
 					isOpen
-						? "fixed inset-0 flex flex-col items-center justify-center bg-red-300 text-gray-800"
+						? "fixed inset-0 flex flex-col items-center justify-center bg-red-300 text-gray-600"
 						: "hidden lg:flex lg:items-center"
 				}`}>
 				{isOpen && (
 					<button
-						className="absolute top-4 right-4 text-gray-800 focus:outline-none"
+						className="flex flex-col items-center justify-center text-white focus:outline-none"
 						onClick={toggleMenu}>
-						<i className="fa fa-times text-2xl"></i>
+						<i
+							className="fa fa-times w-32 h-32"
+							style={{ fontSize: "25px" }}></i>
 					</button>
 				)}
 
