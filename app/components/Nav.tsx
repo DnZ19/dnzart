@@ -32,7 +32,7 @@ export default function Nav() {
 					onClick={toggleMenu}>
 					<i
 						className="fa fa-bars text-2xl"
-						style={{ fontSize: "25px" }}></i>
+						style={{ fontSize: "35px" }}></i>
 				</button>
 			</div>
 

@@ -5,18 +5,19 @@
 :root {
 	--max-width: 1100px;
 	--border-radius: 12px;
-	--font-path: "/public/GoudyStM.otf";
+	--font-path: "/public/SortsMillGoudy-Regular.ttf";
 }
 
 @font-face {
 	font-family: "GoudyStM";
-	src: url("/public/GoudyStM.otf") format("opentype");
+	src: url("/public/SortsMillGoudy-Regular.ttf")
+		format("opentype");
 	font-weight: normal;
 	font-style: normal;
 }
 
 body {
-	font-family: "GoudyStM", sans-serif;
+	font-family: "SortsMillGoudy-Regular", sans-serif;
 }
 
 * {

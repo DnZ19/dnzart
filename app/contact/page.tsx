@@ -6,7 +6,11 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function Contact() {
 	const [state, handleSubmit] = useForm("xqkonjbg");
 	if (state.succeeded) {
-		return <p>Thanks for joining!</p>;
+		return (
+			<p className="h-screen w-full flex felx-col items-center justify-center text-4xl font-sans">
+				Thanks for reaching out!
+			</p>
+		);
 	}
 	return (
 		<div className="flex flex-col items-center">
