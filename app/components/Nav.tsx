@@ -14,9 +14,16 @@ export default function Nav() {
 	}
 
 	return (
-		<nav className="bg-transparent relative flex flex-row items-center justify-between">
+		<nav className="bg-transparent relative flex flex-row items-center justify-between my-2">
 			<h2 className="absolute right-0 h-auto w-26 max-w-md lg:left-0 text-red-600 font-bold antialiased tracking-wider hover:italic z-20 md:text-xl">
-				<Link href="/">DENNIZ - art</Link>
+				<Link href="/">
+					<img
+						src="/favicon.ico"
+						alt="Favicon"
+						className="inline mr-0"
+					/>
+					ENNI<span className="text-blue-700">Z</span>
+				</Link>
 			</h2>
 
 			<div className="flex flex-col items-center justify-between py-8">

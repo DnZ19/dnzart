@@ -31,7 +31,7 @@ export default function RootLayout({
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<body className="mx-4 md:mx-12 lg:mx-22">
+			<body className="bg-white mx-4 md:mx-12 lg:mx-22">
 				<Nav />
 				{children}
 				<Footer />
