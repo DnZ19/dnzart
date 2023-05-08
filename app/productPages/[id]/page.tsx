@@ -17,7 +17,7 @@ export default async function ProductPage({
 						alt={searchParams.name}
 						width={600}
 						height={600}
-						className="w-auto max-h-auto md:max-w-xs lg:md:max-h-none lg:max-w-md rounded-lg bg-cover"
+						className="w-full lg:w-auto max-h-auto md:max-w-xs lg:md:max-h-none lg:max-w-md rounded-lg bg-cover"
 					/>
 				</div>
 				<div>
