@@ -9,7 +9,7 @@ export default function Products() {
 			<div className="grid grid-cols-fluid gap-4 mt-12">
 				<Product
 					id={"1"}
-					sold={true}
+					sold={false}
 					name={"Painting one"}
 					image={"/paintings/paint1.jpg"}
 					price={50000}
@@ -19,7 +19,7 @@ export default function Products() {
 				/>
 				<Product
 					id={"2"}
-					sold={true}
+					sold={false}
 					name={"Painting two"}
 					image={"/paintings/paint2.jpg"}
 					price={50000}
@@ -31,7 +31,7 @@ export default function Products() {
 					id={"3"}
 					sold={true}
 					name={"Painting three"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint3.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
@@ -41,7 +41,7 @@ export default function Products() {
 					id={"5"}
 					sold={false}
 					name={"Painting four"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint4.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
@@ -49,9 +49,9 @@ export default function Products() {
 				/>
 				<Product
 					id={"6"}
-					sold={false}
+					sold={true}
 					name={"Painting four"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint5.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
@@ -59,9 +59,9 @@ export default function Products() {
 				/>
 				<Product
 					id={"7"}
-					sold={false}
+					sold={true}
 					name={"Painting four"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint6.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
@@ -71,7 +71,7 @@ export default function Products() {
 					id={"8"}
 					sold={false}
 					name={"Painting four"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint7.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
@@ -81,7 +81,7 @@ export default function Products() {
 					id={"9"}
 					sold={true}
 					name={"Painting four"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint8.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
@@ -91,7 +91,7 @@ export default function Products() {
 					id={"10"}
 					sold={false}
 					name={"Painting four"}
-					image={"/paintings/paint2.jpg"}
+					image={"/paintings/paint9.jpg"}
 					price={50000}
 					description={
 						"Painting is a timeless art form that has been a cornerstone of human culture and expression for centuries. From the earliest cave paintings to modern masterpiece painting has evolved through various styles, techniques, and materials, becoming an essential part of our world's artistic heritage."
