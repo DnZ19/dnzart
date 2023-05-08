@@ -7,7 +7,7 @@ import { FiInstagram } from "react-icons/fi";
 export default function About() {
 	return (
 		<div className="grid grid-cols-fluid md:gap-4 mt-12 max-w-8xl border-2 border-gray-200 p-2">
-			<div className="flex flex-col items-center justify-start h-auto lg:h-full lg:mb-10">
+			<div className="flex flex-col items-center justify-start h-auto lg:h-full lg:mb-48">
 				<Image
 					src={"/ProfilePicaFB.jpeg"}
 					alt={"Dennis"}
@@ -15,7 +15,7 @@ export default function About() {
 					height={600}
 				/>
 				<h1 className="font-sans text-2xl flex flex-col items-center justify-center h-20 lg:h-28 font-bold">
-					I'M DENNIS
+					HI, I'M DENNIS
 				</h1>
 				<p className="italic text-xs text-center w-28">
 					'I like to be creative, paint, work, making
@@ -57,7 +57,7 @@ export default function About() {
 						</button>
 					</Link>
 					<Link href="https://www.instagram.com/dennizart9/">
-						<FiInstagram className="w-12 h-12" />
+						<FiInstagram className="w-12 h-12 hover:bg-slate-300 rounded-lg" />
 					</Link>
 				</div>
 			</div>

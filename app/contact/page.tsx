@@ -2,14 +2,27 @@
 
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import Link from "next/link";
 
 export default function Contact() {
 	const [state, handleSubmit] = useForm("xqkonjbg");
 	if (state.succeeded) {
 		return (
-			<p className="h-screen w-full flex felx-col items-center justify-center text-4xl font-sans">
-				Thanks for reaching out!
-			</p>
+			<div className="w-full h-screen flex flex-col items-center justify-start">
+				<img
+					src="/favicon.ico"
+					alt="Favicon"
+					className="w-32 h-32 mb-10 mt-52 md:mt-64 items-center animate-[wiggle_2s_ease-in-out]"
+				/>
+				<p className="w-full text-center text-4xl font-sans">
+					Thanks for reaching out!
+				</p>
+				<Link href="/products">
+					<button className="py-4 px-8 mt-10 bg-transparent text-gray-800 border-2 border-gray-900 hover:bg-gray-800 hover:text-gray-200 rounded-md">
+						Back
+					</button>
+				</Link>
+			</div>
 		);
 	}
 	return (

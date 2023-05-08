@@ -16,6 +16,12 @@ module.exports = {
 			fontFamily: {
 				sans: ["var(--font-GoudyStM)"],
 			},
+			keyframes: {
+				wiggle: {
+					"0%, 100%": { transform: "rotate(-30deg)" },
+					"50%": { transform: "rotate(30deg)" },
+				},
+			},
 		},
 	},
 	plugins: [],
