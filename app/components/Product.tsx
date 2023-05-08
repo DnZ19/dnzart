@@ -35,7 +35,7 @@ export default function Product({
 					alt={name}
 					width={400}
 					height={400}
-					className="w-full h-auto object-fill"
+					className="w-full h-auto max-h-48 object-cover"
 				/>
 				{sold ? (
 					<div>
