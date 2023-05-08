@@ -23,7 +23,7 @@ export default function About() {
 				</p>
 			</div>
 			<div className="lg:col-wider-p">
-				<p className="font-sans text-4xl border-b-2 border-gray-600 py-8">
+				<p className="font-sans text-gray-500 text-4xl border-b-2 border-gray-600 py-8">
 					About Me
 				</p>
 				<p className="font-sans text-xl text-justify py-8">
