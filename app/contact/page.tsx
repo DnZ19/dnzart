@@ -27,7 +27,7 @@ export default function Contact() {
 	}
 	return (
 		<div className="flex flex-col items-center">
-			<h1 className="font-sans text-5xl text-gray-500 border-b-2 border-gray-950 text-left w-full mt-20">
+			<h1 className="font-sans text-5xl text-gray-500 border-b-2 border-gray-950 text-left w-full mx-4 px-4 mt-20">
 				Contact
 			</h1>
 			<form
