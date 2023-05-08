@@ -19,7 +19,7 @@ export default function Product({
 	return (
 		<Link
 			href={{
-				pathname: `/productPages/${id}`,
+				pathname: sold ? `/sold` : `/productPages/${id}`,
 				query: {
 					id,
 					name,

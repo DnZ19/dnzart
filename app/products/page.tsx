@@ -3,8 +3,8 @@ import Product from "../components/Product";
 export default function Products() {
 	return (
 		<div>
-			<h1 className="text-gray-500 font-light text-2xl">
-				All my paintings
+			<h1 className="text-gray-500 font-light font-sans text-4xl mt-10 border-b-2 border-gray-950">
+				Overview
 			</h1>
 			<div className="grid grid-cols-fluid gap-4 mt-12">
 				<Product
