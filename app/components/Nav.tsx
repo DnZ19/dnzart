@@ -33,7 +33,7 @@ export default function Nav() {
 				className={`${
 					isOpen
 						? "fixed inset-0 flex flex-col items-center justify-center bg-white text-gray-600 mt-[-150px] z-10"
-						: "hidden lg:flex lg:items-center lg:justify-end md:gap-6 md:text-xl"
+						: "hidden lg:flex lg:items-center lg:justify-end md:gap-10 md:text-xl md:mr-2"
 				}`}>
 				{isOpen && (
 					<button

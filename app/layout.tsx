@@ -2,6 +2,17 @@ import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Head from "next/head";
+import localFont from "next/font/local";
+
+const goudy = localFont({
+	src: [
+		{
+			path: "../public/SortsMillGoudy-Regular.ttf",
+			weight: "400",
+		},
+	],
+	variable: "--font-GoudyStM",
+});
 
 export const metadata = {
 	title: "DnZ-ART",
@@ -14,7 +25,9 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en">
+		<html
+			lang="en"
+			className={`${goudy.variable} font-sans`}>
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>

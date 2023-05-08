@@ -10,6 +10,12 @@ module.exports = {
 			gridTemplateColumns: {
 				fluid: "repeat(auto-fit, minmax(15rem,1fr))",
 			},
+			gridColumn: {
+				"wider-p": "span 2",
+			},
+			fontFamily: {
+				sans: ["var(--font-GoudyStM)"],
+			},
 		},
 	},
 	plugins: [],
