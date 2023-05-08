@@ -31,14 +31,24 @@ export default function About() {
 					adipisicing elit. Molestiae obcaecati quisquam
 					deserunt, adipisci vel nisi iste impedit culpa,
 					similique amet ipsa nihil, ullam aliquid. Incidunt
-					at iure exercitationem facilis a?
+					at iure exercitationem facilis a? Lorem ipsum
+					dolor sit amet, consectetur adipisicing elit.
+					Molestiae obcaecati quisquam deserunt, adipisci
+					vel nisi iste impedit culpa, similique amet ipsa
+					nihil, ullam aliquid. Incidunt at iure
+					exercitationem facilis a?
 					<br />
 					<br />
 					Lorem ipsum dolor sit amet, consectetur
 					adipisicing elit. Molestiae obcaecati quisquam
 					deserunt, adipisci vel nisi iste impedit culpa,
 					similique amet ipsa nihil, ullam aliquid. Incidunt
-					at iure exercitationem facilis a?
+					at iure exercitationem facilis a? Lorem ipsum
+					dolor sit amet, consectetur adipisicing elit.
+					Molestiae obcaecati quisquam deserunt, adipisci
+					vel nisi iste impedit culpa, similique amet ipsa
+					nihil, ullam aliquid. Incidunt at iure
+					exercitationem facilis a?
 				</p>
 				<div className="flex flex-row gap-12">
 					<Link href="/contact">
