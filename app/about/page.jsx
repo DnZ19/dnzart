@@ -7,14 +7,14 @@ import { FiInstagram } from "react-icons/fi";
 export default function About() {
 	return (
 		<div className="grid grid-cols-fluid md:gap-4 mt-12 max-w-8xl border-2 border-gray-200 p-2">
-			<div className="flex flex-col items-center justify-start h-auto lg:h-full">
+			<div className="flex flex-col items-center justify-start h-auto lg:h-full lg:mb-10">
 				<Image
 					src={"/ProfilePicaFB.jpeg"}
 					alt={"Dennis"}
 					width={600}
 					height={600}
 				/>
-				<h1 className="font-sans text-2xl flex flex-col items-center justify-center h-20 lg:h-60 font-bold">
+				<h1 className="font-sans text-2xl flex flex-col items-center justify-center h-20 lg:h-28 font-bold">
 					I'M DENNIS
 				</h1>
 				<p className="italic text-xs text-center w-28">
