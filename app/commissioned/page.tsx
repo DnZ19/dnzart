@@ -11,7 +11,11 @@ export default function Commissioned() {
 					id={"1"}
 					sold={false}
 					name={"Painting one"}
-					images={["/paintings/paint1.jpg"]}
+					images={[
+						"/paintings/paint1.jpg",
+						"/paintings/paint1.jpg",
+						"/paintings/paint1.jpg",
+					]}
 					length={"Length: -- cm"}
 					Height={"Height: -- cm"}
 					depth={"Depth: -- cm"}
@@ -24,7 +28,11 @@ export default function Commissioned() {
 					id={"2"}
 					sold={false}
 					name={"Painting two"}
-					images={["/paintings/paint2.jpg"]}
+					images={[
+						"/paintings/paint2.jpg",
+						"/paintings/paint2.jpg",
+						"/paintings/paint2.jpg",
+					]}
 					length={"Length: -- cm"}
 					Height={"Height: -- cm"}
 					depth={"Depth: -- cm"}
@@ -37,7 +45,11 @@ export default function Commissioned() {
 					id={"3"}
 					sold={true}
 					name={"Painting three"}
-					images={["/paintings/paint3.jpg"]}
+					images={[
+						"/paintings/paint3.jpg",
+						"/paintings/paint3.jpg",
+						"/paintings/paint3.jpg",
+					]}
 					length={"Length: -- cm"}
 					Height={"Height: -- cm"}
 					depth={"Depth: -- cm"}
