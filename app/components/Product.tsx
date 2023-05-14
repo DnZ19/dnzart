@@ -10,6 +10,9 @@ export default function Product({
 	id,
 	name,
 	image,
+	length,
+	Height,
+	depth,
 	price,
 	description,
 	sold,
@@ -24,6 +27,9 @@ export default function Product({
 					id,
 					name,
 					image,
+					length,
+					Height,
+					depth,
 					price,
 					description,
 					sold,
@@ -46,9 +52,22 @@ export default function Product({
 				) : (
 					<div></div>
 				)}
-				<div className="font-medium py-6">
+				<div className="font-medium py-6 flex flex-col items-start">
 					<h1 className="text-xl pb-4">{name}</h1>
+					<div className="gap-2 flex flex-col items-start md:flex-wrap mb-8">
+						<button className="py-1 px-4 bg-slate-300 text-slate-950 rounded-xl text-left text-xs">
+							{length}
+						</button>
+						<button className="py-1 px-4 bg-slate-300 text-slate-950 rounded-xl text-left text-xs">
+							{Height}
+						</button>
+						<button className="py-1 px-4 bg-slate-300 text-slate-950 rounded-xl text-left text-xs">
+							{depth}
+						</button>
+					</div>
+
 					{price !== null && formatPrice(price)}
+
 					<p className="text-sm">{description}</p>
 				</div>
 			</div>

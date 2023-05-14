@@ -6,6 +6,9 @@ type SearchParams = {
 	name: string;
 	price: number | null;
 	image: string;
+	length: string;
+	Height: string;
+	depth: string;
 	description: string;
 	id: string;
 };

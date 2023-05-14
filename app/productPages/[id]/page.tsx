@@ -25,6 +25,17 @@ export default async function ProductPage({
 						<h1 className="text-2xl pb-4">
 							{searchParams.name}
 						</h1>
+						<div className="gap-2 flex flex-col items-startb mb-8 w-28 text-xs">
+							<button className="py-1 px-4 bg-slate-300 text-slate-950 rounded-xl text-left text-xs">
+								{searchParams.length}
+							</button>
+							<button className="py-1 px-4 bg-slate-300 text-slate-950 rounded-xl text-left text-xs">
+								{searchParams.Height}
+							</button>
+							<button className="py-1 px-4 bg-slate-300 text-slate-950 rounded-xl text-left text-xs">
+								{searchParams.depth}
+							</button>
+						</div>
 						{searchParams.price !== null &&
 							formatPrice(searchParams.price)}
 						<p className="mt-10">

@@ -68,6 +68,14 @@ export default function Nav() {
 					</li>
 				</Link>
 
+				<Link href="/commissioned">
+					<li
+						className="flex flex-row justify-between items-center py-2 rounded-md cursor-pointer hover:text-red-600"
+						onClick={toggleMenu}>
+						Commissioned
+					</li>
+				</Link>
+
 				<Link href="/about">
 					<li
 						className="flex flex-row justify-between items-center py-2 rounded-md italic text-blue-700 cursor-pointer hover:text-red-600"
