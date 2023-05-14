@@ -11,7 +11,12 @@ export default function Products() {
 					id={"1"}
 					sold={false}
 					name={"Painting one"}
-					image={"/paintings/paint1.jpg"}
+					images={[
+						"/paintings/paint1.jpg",
+						"/paintings/paint2.jpg",
+						"/paintings/paint3.jpg",
+						"/paintings/paint4.jpg",
+					]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -24,7 +29,7 @@ export default function Products() {
 					id={"2"}
 					sold={false}
 					name={"Painting two"}
-					image={"/paintings/paint2.jpg"}
+					images={["/paintings/paint2.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -37,7 +42,7 @@ export default function Products() {
 					id={"3"}
 					sold={true}
 					name={"Painting three"}
-					image={"/paintings/paint3.jpg"}
+					images={["/paintings/paint3.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -50,7 +55,7 @@ export default function Products() {
 					id={"5"}
 					sold={false}
 					name={"Painting four"}
-					image={"/paintings/paint4.jpg"}
+					images={["/paintings/paint4.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -63,7 +68,7 @@ export default function Products() {
 					id={"6"}
 					sold={true}
 					name={"Painting four"}
-					image={"/paintings/paint5.jpg"}
+					images={["/paintings/paint5.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -76,7 +81,7 @@ export default function Products() {
 					id={"7"}
 					sold={true}
 					name={"Painting four"}
-					image={"/paintings/paint6.jpg"}
+					images={["/paintings/paint6.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -89,7 +94,7 @@ export default function Products() {
 					id={"8"}
 					sold={false}
 					name={"Painting four"}
-					image={"/paintings/paint7.jpg"}
+					images={["/paintings/paint7.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -102,7 +107,7 @@ export default function Products() {
 					id={"9"}
 					sold={true}
 					name={"Painting four"}
-					image={"/paintings/paint8.jpg"}
+					images={["/paintings/paint8.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}
@@ -115,7 +120,7 @@ export default function Products() {
 					id={"10"}
 					sold={false}
 					name={"Painting four"}
-					image={"/paintings/paint9.jpg"}
+					images={["/paintings/paint9.jpg"]}
 					length={"Length: 50 cm"}
 					Height={"Height: 50 cm"}
 					depth={"Depth: 4 cm"}

@@ -5,7 +5,7 @@ type Params = {
 type SearchParams = {
 	name: string;
 	price: number | null;
-	image: string;
+	images: string[];
 	length: string;
 	Height: string;
 	depth: string;

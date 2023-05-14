@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function Product({
 	id,
 	name,
-	image,
+	images,
 	length,
 	Height,
 	depth,
@@ -26,7 +26,7 @@ export default function Product({
 				query: {
 					id,
 					name,
-					image,
+					images,
 					length,
 					Height,
 					depth,
@@ -37,7 +37,7 @@ export default function Product({
 			}}>
 			<div className="text-gray-700 relative">
 				<Image
-					src={image}
+					src={images[0]}
 					alt={name}
 					width={400}
 					height={400}
