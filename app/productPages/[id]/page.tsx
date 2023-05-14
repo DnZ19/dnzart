@@ -8,7 +8,6 @@ import { TiArrowBack } from "react-icons/ti";
 import { useState } from "react";
 import Modal from "@/app/components/Modal";
 
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
